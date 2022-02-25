@@ -16,9 +16,11 @@ const ClaimLmaoButton = () => {
 
     const web3Modal = new Web3Modal({
       network: "mainnet", // optional
-      cacheProvider: true, // optional
+      cacheProvider: false, // optional
       providerOptions, // required
     });
+
+    web3Modal.clearCachedProvider();
 
     console.log("WEB 3 Modal", web3Modal);
 
