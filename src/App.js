@@ -19,7 +19,7 @@ function App() {
         <div className="grid grid-cols md:grid-cols-3 p-8 md:p-16 w-screen md:w-auto">
           <ClaimLmaoButton />
           <button
-            onClick={() => onClickLink("https://discord.gg/5bgBDKCP")}
+            onClick={() => onClickLink("https://discord.gg/dPwGdZJJpk")}
             className="font-mono bg-orange-600 p-6 mr-6 mb-6 w-full md:w-11/12 rounded"
           >
             Join Discord
